@@ -357,7 +357,7 @@ class PDFToWordGUI:
         self._track(self.logo_lbl, text_color="primary")
 
         self.title_lbl = ctk.CTkLabel(
-            self.brand_box, text="PDF EXTRACTOR PRO  |  Dashboard 3.1",
+            self.brand_box, text="PDF EXTRACTOR PRO ",
             font=self.font_title, text_color=self.theme["text_main"]
         )
         self.title_lbl.pack(side="left")
